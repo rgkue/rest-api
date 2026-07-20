@@ -49,7 +49,9 @@ python3 client.py
 > [!NOTE]
 >
 > Las queries dentro de la database.py usan parámetros (`?`), siguiendo las buenas prácticas de desarrollo y evitando las inyecciones SQL.
+>
 > El campo de actualizar datos vía `PATCH` se valida contra una lista blanca de columnas permitidas (`name`, `age`, `phone`) antes de construir la query.
+>
 > Mi próximo objetivo con este proyecto es el de probar autenticación/autorización real mediante el acceso a las funciones ya desarrolladas con un control de acceso basado en roles. Basicamente agregar (registro/login), campos de autenticación (password_hash) y de roles (role)
 
 ## Algunos archivos de útiles de demostración (no forman parte del proyecto)
